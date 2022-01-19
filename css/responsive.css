@@ -1,0 +1,53 @@
+@media screen and (max-width:1000px) {
+    ul{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header ul{
+        height: 13vh;
+    }
+
+    .logo{
+        margin: 2px 0;
+    }
+
+    header ul li{
+        margin: 2px 15px;
+    }
+
+    .search{
+        margin: 2px 6px 2px 0;
+    }
+
+    .login{
+        display: none;
+    }
+
+    #btn{
+        margin: 4px 0;
+    }
+
+    .img{
+        height: 50vh;
+        width: 90vw;    
+    }
+
+    h1{
+        position: center;
+    }
+
+    .btn2{
+        left: 34vw;
+        top: 54vh;
+    }
+
+    #btn2 {
+        width: 130px;
+    } 
+
+    h3{
+        margin: 20px 37vw;
+        color: white;
+    }
+}
